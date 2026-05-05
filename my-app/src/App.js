@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from "react"; //importing all the required react functions.
 // CONFIGURATION
-const API_BASE_URL = "https://y5pc9p79e2.execute-api.us-east-1.amazonaws.com/prod";
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 
 // UPLOAD STATES
